@@ -1,2 +1,1 @@
-# playground2
- For testing out GitHub Desktop
+Editing this to follow the tutorial
