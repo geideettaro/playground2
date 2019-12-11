@@ -1,0 +1,11 @@
+html {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	background: url("home-page-image-min.jpg") no-repeat scroll 0px 100% / cover;
+	background-position-x: right;
+	background-position-y: 0px;
+	background-size: cover;
+}

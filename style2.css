@@ -1,0 +1,268 @@
+html {
+	scroll-behavior: smooth
+}
+
+.rjlogo {
+	width: 129px;
+	height: 150px;
+	
+}
+
+nav {
+	background-color: white;
+	font-family: Bebas Neue;
+	font-color: #2d4795;
+	font-size: 22pt;
+}
+
+
+.buy-button {
+	font-family: Bebas Neue;
+	color: #df3230;
+	font-size: 40pt;
+}
+
+.image-text {
+	margin-top: -300px;
+}
+
+.reviews {
+	font-family: Bebas Neue;
+	color: white;
+	font-size: 26pt;
+}
+
+@media (max-width: 992px) {
+.reviews {
+	display: none;
+}
+	}
+
+
+.nav-link {
+	color: black;
+}
+
+/*@media (min-width: 992px) {*/
+
+
+/*
+.about {
+	padding-left: 50px;
+	font-color: #2d4795;
+}
+
+.cast {
+	padding-left: 300px;
+}
+
+.tickets {
+	padding-left: 190px;
+}
+
+.contact {
+	padding-left: 250px;
+}
+
+}
+
+.about-image {
+
+}
+*/
+
+
+.about-summary .row {
+	padding-top: 200px;
+}
+
+@media (max-width: 992px) {
+	.about-summary .row {
+		padding-top:10px;
+	}
+}
+
+.about-summary {
+	padding-bottom: 50px;
+}
+
+.mission {
+	text-decoration: underline;
+	font-family: Bebas Neue;
+	font-color: black;
+	font-size: 30pt;
+}
+
+.mission-text p {
+	text-align: justify;
+	text-justify: inter-character;
+	font-color: black;
+}
+
+.story {
+	text-decoration: underline;
+	font-family: Bebas Neue;
+	font-color: black;
+	font-size: 30pt;
+}
+
+.story-text p {
+	text-align: justify;
+	text-justify: inter-character;
+	font-color: black;
+}
+
+.venue {
+	text-decoration: underline;
+	font-family: Bebas Neue;
+	font-color: black;
+	font-size: 30pt;
+}
+
+.venue-text p {
+	text-align: justify;
+	text-justify: inter-character;
+	font-color: black;
+}
+
+.ticket-container {
+	padding-top: 280px;
+	padding-bottom: 300px;
+}
+
+@media (max-width: 992px) {
+		.ticket-container {
+			padding-top:20px;
+			padding-bottom:5px;
+
+		}
+	}
+
+.action {
+	text-decoration: underline;
+	text-align: justify;
+	text-justify: inter-character;
+	font-color: black;
+}
+
+.date p {
+	text-decoration: underline;
+	font-family: Bebas Neue;
+	font-color: black;
+	font-size: 30pt;
+	text-align: left;
+}
+
+.arrow {
+	transform-origin: 0 0;
+	transform: rotate(90deg);
+	color: black;
+	font-size: 40pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+		.arrow {
+			display: none;
+		}
+	}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+	padding-top: 50px;
+}
+
+.directions {
+	padding-top: 250px;
+	padding-bottom: 90px;
+	font-family: Montserrat;
+}
+
+@media (max-width: 992px) {
+		.directions {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+
+.title {
+	font-family: Bebas Neue;
+	color: white;
+	font-size: 80pt;
+}
+
+.subtitle {
+	font-family: Bebas Neue;
+	color: white;
+	font-size: 30pt;
+}
+
+@media (max-width: 992px) {
+	.title {
+		font-family: Bebas Neue;
+		color: white;
+		font-size: 20pt;
+	}
+
+	.subtitle {
+		font-family: Bebas Neue;
+		color: white;
+		font-size: 20pt;
+	}
+}
+
+.footer-text {
+	color: #df3230;
+	font-family: Bebas Neue;
+}
+
+.address-text p {
+	font-family: Montserrat;
+}
+
+.crew-images {
+	padding-top:120px;
+	
+}
+
+@media (max-width: 992px) {
+		.crew-images {
+			padding-top:20px;
+		}
+	}
+
+.crew-images p {
+	font-family: Montserrat;
+	font
+}
+
+.venue-text p {
+	font-family: Montserrat;
+}
+
+.mission-text p {
+	font-family: Montserrat;
+}
+
+.story-text p {
+	font-family: Montserrat;
+}
+
+.ticket-container {
+	font-family: Montserrat;
+}
+

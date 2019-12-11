@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Nav, Lists and Responsiveness</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="style2.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,800,800i&display=swap" rel="stylesheet">
+
+	</head>
+	
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+			<div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+				<ul class="navbar-nav text-center d-flex justify-content-around w-100">
+					<li class="nav-item about">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item active cast">
+						<a class="nav-link" href="cast.html">Cast</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-auto my-2 order-0 order-md-1 position-relative">
+				<a class="mx-auto" href="index.html">
+					<img src="rj-logo.svg" class="rjlogo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+				<ul class="navbar-nav mr-auto text-center d-flex justify-content-around w-100">
+					<li class="nav-item tickets dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="purchase" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Purchase
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="ticket.html">Tickets</a>
+							<a class="dropdown-item" href="merch.html">Merchandise</a>
+						</div>
+					</li>
+					<li class="nav-item contact">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid m-0 p-0">
+			<img class="image-fluid w-100" src="cast-image-min.jpg" alt="cast image">
+		</div>
+
+		<div class="mx-auto text-center" style="width: 200px">
+			<a class="arrow" href="#container cast"> ⇓ </a>
+		</div>
+
+		<div class="container cast crew-images" id="container cast">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/man1-min.jpg" alt="man">
+					<p> Chris Lee </p>
+					<p> Cast Member</p>
+				</div>
+			
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/man3-min.jpg" alt="man">
+					<p> Adam Brady</p>
+					<p> Cast Member</p>
+				</div>
+			
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/man2-min.jpg" alt="man">
+					<p> Johnathan Hanks </p>
+					<p> Crew Member</p>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/woman 2-min.jpg" alt="woman">
+					<p> Casey Goodman</p>
+					<p> Crew Member </p>
+				</div>
+			
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/woman1-min.jpg" alt="woman">
+					<p> Sabrina Mann</p>
+					<p> Cast Member </p>
+				</div>
+			
+				<div class="col-md-4">
+					<img class="rounded-circle w-100" src="./crew images/man4-min.jpg" alt="man">
+					<p> Marcus Chase</p>
+					<p> Crew Member </p>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 address-text">
+						<p> 842 S Broadway, Los Angeles, CA 90014, United States</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<a href="ticket.html" class="footer-text">
+							<p>Purchase Tickets</p>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://facebook.com">
+							<img src="iconmonstr-facebook-4.svg">
+						</a>
+						<a href="https://youtube.com">
+							<img src="iconmonstr-youtube-6.svg">
+						</a>
+						<a href="https://www.instagram.com/">
+							<img src="iconmonstr-instagram-11.svg">
+						</a>
+						<a href="https://twitter.com">
+							<img src="iconmonstr-twitter-1.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	</body>
+
+	
+</html>
+
+
+
